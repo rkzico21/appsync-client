@@ -1,0 +1,25 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "appsyncclient-20190110125642-authRole",
+      "UnauthRoleArn": "arn:aws:iam::021764565112:role/appsyncclient-20190110125642-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::021764565112:role/appsyncclient-20190110125642-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "appsyncclient-20190110125642-deployment",
+      "UnauthRoleName": "appsyncclient-20190110125642-unauthRole",
+      "StackName": "appsyncclient-20190110125642",
+      "StackId": "arn:aws:cloudformation:us-west-2:021764565112:stack/appsyncclient-20190110125642/e5a2baf0-14a4-11e9-93d6-02245e26cad4"
+    }
+  },
+  "api": {
+    "sls-appsync-api": {
+      "service": "AppSync",
+      "output": {
+        "securityType": "AMAZON_COGNITO_USER_POOLS",
+        "GraphQLAPIIdOutput": "tcvcoqxthrgl7a6oy7ksle3c6a",
+        "GraphQLAPIEndpointOutput": "https://5wf6unnvija4nlknimdsqhmxsi.appsync-api.us-east-1.amazonaws.com/graphql"
+      },
+      "lastPushTimeStamp": "2019-01-10T10:17:41.304Z"
+    }
+  }
+}
